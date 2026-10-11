@@ -1,0 +1,1203 @@
+﻿<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <script>
+
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+
+    <title>Alaya Experience</title>
+
+    <link rel='stylesheet' href='plugins/gdlr-hostel/gdlr-hotel.css' type='text/css' media='all'>
+    <link rel='stylesheet' href='css/style.css' type='text/css' media='all'>
+    <link rel='stylesheet' href='plugins/superfish/css/superfish.css' type='text/css' media='all'>
+    <link rel='stylesheet' href='plugins/dl-menu/component.css' type='text/css' media='all'>
+    <link rel='stylesheet' href='plugins/font-awesome-new/css/font-awesome.min.css' type='text/css' media='all'>
+    <link rel='stylesheet' href='plugins/fancybox/jquery.fancybox.css' type='text/css' media='all'>
+    <link rel='stylesheet' href='plugins/flexslider/flexslider.css' type='text/css' media='all'>
+    <link rel='stylesheet' href='css/style-responsive.css' type='text/css' media='all'>
+    <link rel='stylesheet' href='css/style-custom.css' type='text/css' media='all'>
+    <link rel='stylesheet' href='plugins/masterslider/public/assets/css/masterslider.main.css' type='text/css'
+        media='all'>
+    <link rel='stylesheet' href='css/customfc99.css?ver=2.6' type='text/css' media='all'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Slideshow container */
+        .slideshow-container {
+            /*max-width: 1000px;*/
+            position: relative;
+            margin: auto;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+
+            .prev,
+            .next,
+            .text {
+                font-size: 11px
+            }
+        }
+    </style>
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,700|Open+Sans:300,300i,400,400i,600,700,800|Droid+Serif:300,300i,400,600,700|Open+Sans+Condensed:300,300i,700"
+        rel="stylesheet">
+
+    <!-- load the script for older ie version -->
+    <!--[if lt IE 9]>
+	<script src="https://demo.goodlayers.com/hotelmaster/wp-content/themes/hotelmaster/javascript/html5.js" type="text/javascript"></script>
+	<script src="https://demo.goodlayers.com/hotelmaster/wp-content/themes/hotelmaster/plugins/easy-pie-chart/excanvas.js" type="text/javascript"></script>
+	<![endif]-->
+</head>
+
+<body data-rsssl="1"
+    class="home page-template-default page page-id-3720 _masterslider _msp_version_3.2.2  header-style-1">
+    <div class="body-wrapper  gdlr-icon-dark gdlr-header-transparent"
+        data-home="https://demo.goodlayers.com/hotelmaster/hostel">
+        <header class="gdlr-header-wrapper">
+            <!-- top navigation -->
+
+            <!-- logo -->
+            <div class="gdlr-header-inner">
+                <div class="gdlr-header-container container">
+                    <!-- logo -->
+                    <div class="gdlr-logo">
+                        <div class="gdlr-logo-inner">
+                            <a href="index.html">
+                                <img src="upload/logo-hostel.png" alt="" width="406" height="80">
+                            </a>
+                            <div class="gdlr-responsive-navigation dl-menuwrapper" id="gdlr-responsive-navigation">
+                                <button class="dl-trigger">Open Menu</button>
+                                <ul id="menu-main-menu" class="dl-menu gdlr-main-mobile-menu">
+                                    <li class="menu-item menu-item-home "><a href="index.html">Home</a></li>
+                                    <li class="menu-item menu-item-home "><a href="about-us.html">About Us</a></li>
+                                    <li class="menu-item menu-item-home ">
+                                        <<a href="rooms.html">Rooms</a>
+                                    </li>
+                                    <li class="menu-item menu-item-home "><a href="experience.html">Experience</a></li>
+                                    <li class="menu-item menu-item-home "><a href="events.html">Events</a></li>
+                                    <li class="menu-item menu-item-home "><a href="gallery.html">Gallery</a></li>
+                                    <li class="menu-item menu-item-home "><a href="contact-us.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- navigation -->
+                    <div class="gdlr-navigation-wrapper">
+                        <nav class="gdlr-navigation" id="gdlr-main-navigation" role="navigation">
+                            <ul id="menu-main-menu-1" class="sf-menu gdlr-main-menu">
+                                <li class="menu-item menu-item-home"><a href="index.html">Home</a></li>
+                                <li class="menu-item menu-item-home"><a href="about-us.html">About Us</a></li>
+                                <li class="menu-item menu-item-home"><a href="rooms.html">Rooms</a></li>
+                                <li class="menu-item menu-item-home"><a href="experience.html">Experience</a></li>
+                                <li class="menu-item menu-item-home"><a href="events.html">Events</a></li>
+                                <li class="menu-item menu-item-home"><a href="gallery.html">Gallery</a></li>
+                                <li class="menu-item menu-item-home"><a href="contact-us.html">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                        <span class="gdlr-menu-search-button-sep">•</span>
+                        <i class="fa fa-search icon-search gdlr-menu-search-button" id="gdlr-menu-search-button"></i>
+                        <div class="gdlr-menu-search" id="gdlr-menu-search">
+                            <form method="get" id="searchform" action="#">
+                                <div class="search-text">
+                                    <input type="text" value="Type Keywords" name="s" autocomplete="off"
+                                        data-default="Type Keywords">
+                                </div>
+                                <input type="submit" value="">
+                                <div class="clear"></div>
+                            </form>
+                        </div>
+                        <div class="gdlr-navigation-gimmick" id="gdlr-navigation-gimmick"></div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </header>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/banner3.jpg" style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/banner2.jpg" style="width:100%">
+
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/banner4.jpg" style="width:100%">
+
+            </div>
+
+
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+
+
+        <!-- <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div> -->
+        <!-- is search -->
+        <div class="content-wrapper">
+            <div class="gdlr-content">
+
+                <div class="with-sidebar-wrapper">
+                    <section id="content-section-1">
+                        <div class="gdlr-full-size-wrapper gdlr-show-all"
+                            style="padding-bottom: 0px;  background-color: #ffffff; ">
+                            <div class="gdlr-master-slider-item gdlr-slider-item gdlr-item" style="margin-bottom: 0px;">
+                                <!-- MasterSlider -->
+                                <div id="P_MS5af444ba18353" class="master-slider-parent ms-parent-id-4">
+
+
+                                    <div id="MS5af444ba18353" class="master-slider ms-skin-default">
+
+                                        <div class="ms-slide" data-delay="7" data-fill-mode="fill">
+                                            <img src="plugins/masterslider/public/assets/css/blank.gif" alt="" title=""
+                                                data-src="upload/slider-1.jpg">
+
+                                            <div class="ms-layer  msp-cn-5-10" style="" data-duration="862"
+                                                data-ease="easeOutQuint" data-offset-x="0" data-offset-y="-79"
+                                                data-origin="mc" data-position="normal">
+                                                Seamless Luxury amidst the Wild!</div>
+
+                                            <div class="ms-layer  msp-cn-5-12" style="width:48px;height:2px;"
+                                                data-duration="775" data-delay="525" data-ease="easeOutQuint"
+                                                data-offset-x="0" data-offset-y="-24" data-origin="mc"
+                                                data-position="normal">
+                                            </div>
+
+                                            <div class="ms-layer  msp-cn-4-11" style=""
+                                                data-effect="t(true,n,n,-500,n,n,n,n,n,n,n,n,n,n,n)" data-duration="712"
+                                                data-delay="975" data-ease="easeOutQuint" data-offset-x="0"
+                                                data-offset-y="50" data-origin="mc" data-position="normal">
+                                                Stay, Explore and Rejuvenate.</div>
+
+                                            <div class="ms-layer  msp-cn-5-13" style=""
+                                                data-effect="t(true,n,n,500,n,n,n,n,n,n,n,n,n,n,n)" data-duration="750"
+                                                data-delay="1462" data-ease="easeOutQuint" data-offset-x="0"
+                                                data-offset-y="135" data-origin="mc" data-position="normal">
+                                                Unwind in Opulence, Live the Dream.</div>
+
+
+                                        </div>
+                                        <div class="ms-slide" data-delay="3" data-fill-mode="fill">
+                                            <img src="plugins/masterslider/public/assets/css/blank.gif" alt="" title=""
+                                                data-src="upload/slider-2.jpg">
+
+                                            <div class="ms-layer  msp-cn-4-14" style=""
+                                                data-effect="t(true,n,n,-500,n,n,n,n,n,n,n,n,n,n,n)" data-duration="425"
+                                                data-ease="easeOutQuint" data-offset-x="0" data-offset-y="-18"
+                                                data-origin="mc" data-position="normal">
+                                                Enjoy the city</div>
+
+                                            <div class="ms-layer  msp-cn-4-15" style=""
+                                                data-effect="t(true,n,n,500,n,n,n,n,n,n,n,n,n,n,n)" data-duration="475"
+                                                data-delay="450" data-ease="easeOutQuint" data-offset-x="0"
+                                                data-offset-y="58" data-origin="mc" data-position="normal">
+                                                And Explore New Experiences</div>
+
+
+                                        </div>
+                                        <div class="ms-slide" data-delay="3" data-fill-mode="fill">
+                                            <img src="plugins/masterslider/public/assets/css/blank.gif" alt="" title=""
+                                                data-src="upload/slider-3.jpg">
+
+                                            <div class="ms-layer  msp-cn-4-16" style=""
+                                                data-effect="t(true,n,250,n,n,n,n,n,n,n,n,-25,n,n,n)"
+                                                data-ease="easeOutQuint" data-offset-x="0" data-offset-y="-27"
+                                                data-origin="mc" data-position="normal">
+                                                New Friends  New Cultres</div>
+
+                                            <div class="ms-layer  msp-cn-4-17" style=""
+                                                data-effect="t(true,n,250,n,n,n,n,n,n,n,n,-25,n,n,n)"
+                                                data-ease="easeOutQuint" data-offset-x="0" data-offset-y="60"
+                                                data-origin="mc" data-position="normal">
+                                                New Experiences</div>
+
+
+                                        </div>
+
+                                    </div>
+                                    <!-- END MasterSlider Main -->
+
+
+                                </div>
+                                <!-- END MasterSlider -->
+
+
+
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </section>
+                    <section id="content-section-2" style="margin-top:0px;">
+                        <div class="gdlr-color-wrapper  gdlr-show-all gdlr-skin-light-grey"
+                            style="background-color: #f5f5f5; padding-top: 80px; padding-bottom: 50px; ">
+                            <div class="container">
+                                <div class="gdlr-item-title-wrapper gdlr-item pos-center ">
+                                    <div class="gdlr-item-title-head">
+
+                                        
+                                        <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border"><b>Enquire Now</b>
+                                        </h3>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                                <div class="gdlr-hotel-availability-wrapper" style="margin-bottom: 20px;color:black;">
+                                    <form class="gdlr-hotel-availability gdlr-hostel gdlr-item"
+                                        id="gdlr-hotel-availability" action="https://formspree.io/f/mvojjqnr" method="post" enctype="multipart/form-data" onclick="">
+                                        <div class="gdlr-reservation-field gdlr-resv-datepicker">
+                                            <span class="gdlr-reservation-field-title">Name</span>
+                                            <div class="gdlr-datepicker-wrapper1">
+                                                <input id="name" type="text" name="name" size="40"
+                                                    placeholder="Enter Your Name"
+                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                    aria-required="true" aria-invalid="false" style="
+    width: 251px;
+">
+                                            </div>
+
+
+                                        </div>
+                                        <div class="gdlr-reservation-field gdlr-resv-datepicker">
+                                            <span class="gdlr-reservation-field-title">Phone No.</span>
+                                            <div class="gdlr-datepicker-wrapper1">
+                                                <input id="name" type="text" name="name" size="40"
+                                                    placeholder="Enter Your Phone No."
+                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                    aria-required="true" aria-invalid="false" style="
+    width: 251px;
+">
+                                            </div>
+
+
+                                        </div>
+                                        <div class="gdlr-reservation-field gdlr-resv-datepicker">
+                                            <span class="gdlr-reservation-field-title">Email ID(Optional)</span>
+                                            <div class="gdlr-datepicker-wrapper1">
+                                                <input id="name" type="text" name="name" size="40"
+                                                    placeholder="Enter Your Email ID"
+                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                    aria-required="true" aria-invalid="false" style="
+    width: 251px;
+">
+                                            </div>
+
+
+                                        </div>
+
+
+                                        <div class="clear">
+                                        </div>
+                                    </form>
+                                </div>
+
+
+                                <div class="gdlr-hotel-availability-wrapper" style="margin-bottom: 20px;color:black;">
+                                    <form class="gdlr-hotel-availability gdlr-hostel gdlr-item"
+                                        id="gdlr-hotel-availability" method="post" action="#">
+                                        <div class="gdlr-reservation-field gdlr-resv-datepicker">
+                                            <span class="gdlr-reservation-field-title">Check In</span>
+                                            <div class="gdlr-datepicker-wrapper">
+                                                <input type="text" id="gdlr-check-in" class="gdlr-datepicker"
+                                                    data-dfm="d M yy" value="2018-05-10">
+                                            </div>
+                                        </div>
+                                        <div class="gdlr-reservation-field gdlr-resv-combobox">
+                                            <span class="gdlr-reservation-field-title">Night</span>
+                                            <div class="gdlr-combobox-wrapper">
+                                                <select name="gdlr-night" id="gdlr-night">
+                                                    <option value="0">0</option>
+                                                    <option value="1" selected="">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="gdlr-reservation-field gdlr-resv-datepicker">
+                                            <span class="gdlr-reservation-field-title">Check Out</span>
+                                            <div class="gdlr-datepicker-wrapper">
+                                                <input type="text" id="gdlr-check-out" class="gdlr-datepicker"
+                                                    data-dfm="d M yy" value="2018-05-11">
+                                            </div>
+                                        </div>
+                                        <div class="gdlr-reservation-field gdlr-resv-combobox">
+                                            <span class="gdlr-reservation-field-title">Guests</span>
+                                            <div class="gdlr-combobox-wrapper">
+                                                <select name="gdlr-room-number" id="gdlr-room-number">
+                                                    <option value="1" selected="">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="gdlr-hotel-availability-submit">
+                                            <input type="hidden" name="hotel_data" value="1"><input type="submit"
+                                                class="gdlr-reservation-bar-button gdlr-button with-border"
+                                                value="Submit">
+                                        </div>
+                                        <div class="clear">
+                                        </div>
+                                    </form>
+                                </div>
+
+
+                                <div class="clear"></div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </section>
+                    <section id="content-section-3">
+                        <div class="gdlr-parallax-wrapper gdlr-background-image gdlr-show-all gdlr-skin-dark-service"
+                            id="gdlr-parallax-wrapper-1" data-bgspeed="0.1"
+                            style="background-image: url('upload/hostel-service-bg.jpg'); padding-top: 95px; padding-bottom: 15px; ">
+                            <div class="container">
+                                <div class="four columns">
+                                    <div class="gdlr-ux column-service-ux">
+                                        <div class="gdlr-item gdlr-column-service-item gdlr-type-3"
+                                            style="margin-bottom: 65px;">
+                                            <div class="column-service-image"><img src="upload/hostel-service-1.png"
+                                                    alt="" width="131" height="131"></div>
+                                            <div class="column-service-content-wrapper">
+                                                <h3 class="column-service-title">Exclusive Location</h3>
+                                                <div class="column-service-divider"></div>
+                                                <div class="column-service-content gdlr-skin-content">
+                                                    <p>A sanctuary in the heart of Jim Corbett, where every corner is a
+                                                        portal to the untamed, natural paradise waiting to be explored.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="four columns">
+                                    <div class="gdlr-ux column-service-ux">
+                                        <div class="gdlr-item gdlr-column-service-item gdlr-type-3"
+                                            style="margin-bottom: 65px;">
+                                            <div class="column-service-image"><img src="upload/hostel-service-2.png"
+                                                    alt="" width="131" height="131"></div>
+                                            <div class="column-service-content-wrapper">
+                                                <h3 class="column-service-title">Elegant Accommodations</h3>
+                                                <div class="column-service-divider"></div>
+                                                <div class="column-service-content gdlr-skin-content">
+                                                    <p>Luxurious stay with 50 plus contemporary style rooms & suites
+                                                        with high-quality furnishings, fine linens and lavish amenities.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="four columns">
+                                    <div class="gdlr-ux column-service-ux">
+                                        <div class="gdlr-item gdlr-column-service-item gdlr-type-3"
+                                            style="margin-bottom: 65px;">
+                                            <div class="column-service-image"><img src="upload/hostel-service-3.png"
+                                                    alt="" width="131" height="131"></div>
+                                            <div class="column-service-content-wrapper">
+                                                <h3 class="column-service-title">Exemplary Service</h3>
+                                                <div class="column-service-divider"></div>
+                                                <div class="column-service-content gdlr-skin-content">
+                                                    <p>Personalized and attentive service is a hallmark of our luxury
+                                                        accommodations, ensuring guest’s needs are met promptly and
+                                                        discreetly.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="four columns">
+                                    <div class="gdlr-ux column-service-ux">
+                                        <div class="gdlr-item gdlr-column-service-item gdlr-type-3"
+                                            style="margin-bottom: 65px;">
+                                            <div class="column-service-image"><img src="upload/hostel-service-4.png"
+                                                    alt="" width="131" height="131"></div>
+                                            <div class="column-service-content-wrapper">
+                                                <h3 class="column-service-title">High-End Amenities</h3>
+                                                <div class="column-service-divider"></div>
+                                                <div class="column-service-content gdlr-skin-content">
+                                                    <p>State-of-the-art technology, infinity pool, fitness centre,
+                                                        conference facilities, event banquets, lawns and extensive
+                                                        leisure facilities.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="four columns">
+                                    <div class="gdlr-ux column-service-ux">
+                                        <div class="gdlr-item gdlr-column-service-item gdlr-type-3"
+                                            style="margin-bottom: 65px;">
+                                            <div class="column-service-image"><img src="upload/hostel-service-5.png"
+                                                    alt="" width="131" height="131"></div>
+                                            <div class="column-service-content-wrapper">
+                                                <h3 class="column-service-title">Wellness and Spa Services</h3>
+                                                <div class="column-service-divider"></div>
+                                                <div class="column-service-content gdlr-skin-content">
+                                                    <p>High-end spas and beauty salon offering a range of indulgent
+                                                        treatments and wellness programs, ensuring relaxation and
+                                                        rejuvenation.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="four columns">
+                                    <div class="gdlr-ux column-service-ux">
+                                        <div class="gdlr-item gdlr-column-service-item gdlr-type-3"
+                                            style="margin-bottom: 65px;">
+                                            <div class="column-service-image"><img src="upload/hostel-service-6.png"
+                                                    alt="" width="131" height="131"></div>
+                                            <div class="column-service-content-wrapper">
+                                                <h3 class="column-service-title">Privacy and Security</h3>
+                                                <div class="column-service-divider"></div>
+                                                <div class="column-service-content gdlr-skin-content">
+                                                    <p>Ensuring a discreet and secure environment for guests to enjoy
+                                                        their stay with peace of mind.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </section>
+                    <section id="content-section-4">
+                        <div class="gdlr-full-size-wrapper gdlr-show-all"
+                            style="padding-top: 70px; padding-bottom: 0px;  background-color: #ffffff; ">
+                            <div class="gdlr-item-title-wrapper gdlr-item pos-center gdlr-nav-container ">
+                                <div class="gdlr-item-title-head">
+                                    <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border">Rooms & Suites</h3>
+                                    <div class="gdlr-item-title-carousel"><i
+                                            class="icon-angle-left gdlr-flex-prev"></i><i
+                                            class="icon-angle-right gdlr-flex-next"></i></div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="room-item-wrapper type-modern">
+                                <div class="room-item-holder">
+                                    <div class="gdlr-room-carousel-item gdlr-item">
+                                        <div class="flexslider" data-type="carousel"
+                                            data-nav-container="room-item-wrapper" data-columns="3">
+                                            <ul class="slides">
+                                                <li class="gdlr-item gdlr-modern-room">
+                                                    <div class="gdlr-room-thumbnail">
+                                                        <a href="#"><img
+                                                                src="upload/photodune-9099493-dormer-bedroom-in-the-apex-of-a-roof-m-700x400.jpg"
+                                                                alt="" width="700" height="400"></a>
+                                                    </div>
+                                                    <h3 class="gdlr-room-title"><a href="#">Double Bed Private</a></h3>
+                                                    <a href="#" class="gdlr-room-detail">Check Details<i
+                                                            class="fa fa-long-arrow-right icon-long-arrow-right"></i></a>
+                                                </li>
+                                                <li class="gdlr-item gdlr-modern-room">
+                                                    <div class="gdlr-room-thumbnail">
+                                                        <a href="#"><img src="upload/1l.jpg" alt="" width="700"
+                                                                height="400"></a>
+                                                    </div>
+                                                    <h3 class="gdlr-room-title"><a href="#">3 Bed Private</a></h3>
+                                                    <a href="#" class="gdlr-room-detail">Check Details<i
+                                                            class="fa fa-long-arrow-right icon-long-arrow-right"></i></a>
+                                                </li>
+                                                <li class="gdlr-item gdlr-modern-room">
+                                                    <div class="gdlr-room-thumbnail">
+                                                        <a href="#"><img src="upload/2l.jpg" alt="" width="700"
+                                                                height="400"></a>
+                                                    </div>
+                                                    <h3 class="gdlr-room-title"><a href="#">8 Bed Male Dorm</a></h3>
+                                                    <a href="#" class="gdlr-room-detail">Check Details<i
+                                                            class="fa fa-long-arrow-right icon-long-arrow-right"></i></a>
+                                                </li>
+                                                <li class="gdlr-item gdlr-modern-room">
+                                                    <div class="gdlr-room-thumbnail">
+                                                        <a href="#"><img src="upload/3l.jpg" alt="" width="700"
+                                                                height="400"></a>
+                                                    </div>
+                                                    <h3 class="gdlr-room-title"><a href="#">8 Bed Female Dorm</a></h3>
+                                                    <a href="#" class="gdlr-room-detail">Check Details<i
+                                                            class="fa fa-long-arrow-right icon-long-arrow-right"></i></a>
+                                                </li>
+                                                <li class="gdlr-item gdlr-modern-room">
+                                                    <div class="gdlr-room-thumbnail">
+                                                        <a href="#"><img src="upload/4l.jpg" alt="" width="700"
+                                                                height="400"></a>
+                                                    </div>
+                                                    <h3 class="gdlr-room-title"><a href="#">6 Bed Male Dorm</a></h3>
+                                                    <a href="#" class="gdlr-room-detail">Check Details<i
+                                                            class="fa fa-long-arrow-right icon-long-arrow-right"></i></a>
+                                                </li>
+                                                <li class="gdlr-item gdlr-modern-room">
+                                                    <div class="gdlr-room-thumbnail">
+                                                        <a href="#"><img src="upload/5l.jpg" alt="" width="700"
+                                                                height="400"></a>
+                                                    </div>
+                                                    <h3 class="gdlr-room-title"><a href="#">6 Bed Female Dorm</a></h3>
+                                                    <a href="#" class="gdlr-room-detail">Check Details<i
+                                                            class="fa fa-long-arrow-right icon-long-arrow-right"></i></a>
+                                                </li>
+                                            </ul>
+                                            <div class="clear">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clear">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </section>
+                    <section id="content-section-5">
+                        <div class="gdlr-parallax-wrapper gdlr-background-image gdlr-show-all gdlr-skin-dark-skin"
+                            id="gdlr-parallax-wrapper-2" data-bgspeed="0.1"
+                            style="background-image: url('upload/hostel-skill-bg.jpg'); padding-top: 190px; padding-bottom: 120px; ">
+                            <div class="container">
+                                <div class="three columns">
+                                    <div class="gdlr-skill-item-wrapper gdlr-skin-content gdlr-item">
+                                        <div class="gdlr-skill-item-title">2800</div>
+                                        <div class="gdlr-skill-item-dot">•</div>
+                                        <div class="gdlr-skill-item-caption">Guests</div>
+                                    </div>
+                                </div>
+                                <div class="three columns">
+                                    <div class="gdlr-skill-item-wrapper gdlr-skin-content gdlr-item">
+                                        <div class="gdlr-skill-item-title">35000</div>
+                                        <div class="gdlr-skill-item-dot">•</div>
+                                        <div class="gdlr-skill-item-caption">Openning hours</div>
+                                    </div>
+                                </div>
+                                <div class="three columns">
+                                    <div class="gdlr-skill-item-wrapper gdlr-skin-content gdlr-item">
+                                        <div class="gdlr-skill-item-title">99.9%</div>
+                                        <div class="gdlr-skill-item-dot">•</div>
+                                        <div class="gdlr-skill-item-caption">Satisfaction</div>
+                                    </div>
+                                </div>
+                                <div class="three columns">
+                                    <div class="gdlr-skill-item-wrapper gdlr-skin-content gdlr-item">
+                                        <div class="gdlr-skill-item-title">100%</div>
+                                        <div class="gdlr-skill-item-dot">•</div>
+                                        <div class="gdlr-skill-item-caption">Will come back</div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </section>
+                    <section id="content-section-6">
+                        <div class="gdlr-color-wrapper  gdlr-show-all gdlr-skin-dark-skin"
+                            style="background-color: #1abc9c; padding-top: 80px; padding-bottom: 45px; ">
+                            <div class="container">
+                                <div class="gdlr-testimonial-item-wrapper">
+                                    <div class="gdlr-item-title-wrapper gdlr-item pos-center gdlr-nav-container ">
+                                        <div class="gdlr-item-title-head">
+                                            <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border">Testimonial
+                                            </h3>
+                                            <div class="gdlr-item-title-carousel"><i
+                                                    class="icon-angle-left gdlr-flex-prev"></i><i
+                                                    class="icon-angle-right gdlr-flex-next"></i></div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="gdlr-item gdlr-testimonial-item carousel large plain-style">
+                                        <div class="gdlr-ux gdlr-testimonial-ux">
+                                            <div class="flexslider" data-type="carousel"
+                                                data-nav-container="gdlr-testimonial-item" data-columns="1">
+                                                <ul class="slides">
+                                                    <li class="testimonial-item">
+                                                        <div class="testimonial-content gdlr-skin-content">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                                Etiam porta sem malesuada magna mollis euismod. Nul id
+                                                                dolor id nibh ultricies vehicula ut id elit. Nullam quis
+                                                                risus eget urna mollis ornare vel eu leo.</p>
+                                                        </div>
+                                                        <div class="testimonial-info"><span
+                                                                class="testimonial-author gdlr-skin-link-color">Angelina
+                                                                Cole</span><span
+                                                                class="testimonial-position gdlr-skin-info"><span>,
+                                                                </span>Traveller</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="testimonial-item">
+                                                        <div class="testimonial-content gdlr-skin-content">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                                Etiam porta sem malesuada magna mollis euismod. Nul id
+                                                                dolor id nibh ultricies vehicula ut id elit. Nullam quis
+                                                                risus eget urna mollis ornare vel eu leo. Donec id elit
+                                                                non mi porta.</p>
+                                                        </div>
+                                                        <div class="testimonial-info"><span
+                                                                class="testimonial-author gdlr-skin-link-color">John
+                                                                Smith</span><span
+                                                                class="testimonial-position gdlr-skin-info"><span>,
+                                                                </span>Businesman</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="testimonial-item">
+                                                        <div class="testimonial-content gdlr-skin-content">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                                Etiam porta sem malesuada magna mollis euismod. Nul id
+                                                                dolor id nibh ultricies vehicula ut id elit. Nullam quis
+                                                                risus eget urna mollis ornare leo.</p>
+                                                        </div>
+                                                        <div class="testimonial-info"><span
+                                                                class="testimonial-author gdlr-skin-link-color">Pam
+                                                                Pamelar</span><span
+                                                                class="testimonial-position gdlr-skin-info"><span>,
+                                                                </span>Traveller</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </section>
+                    <section id="content-section-7">
+                        <div class="gdlr-color-wrapper   " style="background-color: #ffffff; padding-top: 70px; ">
+                            <div class="container">
+                                <div class="six columns">
+                                    <div class="gdlr-item-title-wrapper gdlr-item pos-left pos-left-divider ">
+                                        <div class="gdlr-item-title-head">
+                                            <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border">Gallery</h3>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="gdlr-item-title-divider"></div>
+                                    </div>
+                                    <div class="gdlr-gallery-item gdlr-item">
+                                        <div class="gallery-column six columns">
+                                            <div class="gallery-item"><a href="upload/1l.jpg"
+                                                    data-fancybox-group="gdlr-gal-1" data-rel="fancybox"><img
+                                                        src="upload/1l.jpg" alt="" width="400" height="340"></a></div>
+                                        </div>
+                                        <div class="gallery-column three columns">
+                                            <div class="gallery-item"><a href="upload/2l.jpg"
+                                                    data-fancybox-group="gdlr-gal-1" data-rel="fancybox"><img
+                                                        src="upload/2l.jpg" alt="" width="400" height="340"></a></div>
+                                        </div>
+                                        <div class="gallery-column three columns">
+                                            <div class="gallery-item"><a href="upload/3l.jpg"
+                                                    data-fancybox-group="gdlr-gal-1" data-rel="fancybox"><img
+                                                        src="upload/3l.jpg" alt="" width="400" height="340"></a></div>
+                                        </div>
+                                        <div class="gallery-column three columns">
+                                            <div class="gallery-item"><a href="upload/4l.jpg"
+                                                    data-fancybox-group="gdlr-gal-1" data-rel="fancybox"><img
+                                                        src="upload/4l.jpg" alt="" width="400" height="340"></a></div>
+                                        </div>
+                                        <div class="gallery-column three columns">
+                                            <div class="gallery-item"><a href="upload/5l.jpg"
+                                                    data-fancybox-group="gdlr-gal-1" data-rel="fancybox"><img
+                                                        src="upload/5l.jpg" alt="" width="400" height="340"></a></div>
+                                        </div>
+                                        <div class="gallery-column three columns">
+                                            <div class="gallery-item"><a href="upload/6l.jpg"
+                                                    data-fancybox-group="gdlr-gal-1" data-rel="fancybox"><img
+                                                        src="upload/6l.jpg" alt="" width="400" height="340"></a></div>
+                                        </div>
+                                        <div class="gallery-column three columns">
+                                            <div class="gallery-item"><a href="upload/7l.jpg"
+                                                    data-fancybox-group="gdlr-gal-1" data-rel="fancybox"><img
+                                                        src="upload/7l.jpg" alt="" width="400" height="340"></a></div>
+                                        </div>
+
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                                <div class="six columns">
+                                    <div class="gdlr-item-title-wrapper gdlr-item pos-left pos-left-divider ">
+                                        <div class="gdlr-item-title-head">
+                                            <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border">News From Us
+                                            </h3>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="gdlr-item-title-divider"></div>
+                                    </div>
+                                    <div class="blog-item-wrapper">
+                                        <div class="blog-item-holder">
+                                            <div class="gdlr-item gdlr-blog-widget">
+                                                <div class="gdlr-ux gdlr-blog-widget-ux">
+                                                    <article id="post-862"
+                                                        class="post-862 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-fit-row tag-blog tag-link tag-news">
+                                                        <div class="gdlr-standard-style">
+                                                            <div class="blog-date-wrapper gdlr-title-font">
+                                                                <span class="blog-date-day">3</span>
+                                                                <span class="blog-date-month">Dec</span>
+                                                            </div>
+                                                            <header class="post-header">
+                                                                <h3 class="gdlr-blog-title"><a href="#">Magna pars
+                                                                        studiorum</a></h3>
+
+                                                                <div class="gdlr-blog-excerpt">Lorem ipsum dolor sit
+                                                                    amet, consectetur adipisici elit, sed eiusmod tempor
+                                                                    incidunt ut labore et dolore magna...
+                                                                    <div class="clear"></div><a href="#"
+                                                                        class="excerpt-read-more">Continue Reading<i
+                                                                            class="fa fa-long-arrow-right icon-long-arrow-right"></i></a>
+                                                                </div>
+                                                                <div class="clear"></div>
+                                                            </header>
+                                                            <!-- entry-header -->
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                    </article>
+                                                    <!-- #post -->
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-item gdlr-blog-widget">
+                                                <div class="gdlr-ux gdlr-blog-widget-ux">
+                                                    <article id="post-859"
+                                                        class="post-859 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-fit-row">
+                                                        <div class="gdlr-standard-style">
+                                                            <div class="blog-date-wrapper gdlr-title-font">
+                                                                <span class="blog-date-day">3</span>
+                                                                <span class="blog-date-month">Dec</span>
+                                                            </div>
+                                                            <header class="post-header">
+                                                                <h3 class="gdlr-blog-title"><a href="#">Sedial eiusmod
+                                                                        tempor</a></h3>
+
+                                                                <div class="gdlr-blog-excerpt">Lorem ipsum dolor sit
+                                                                    amet, consectetur adipisici elit, sed eiusmod tempor
+                                                                    incidunt ut labore et dolore magna...
+                                                                    <div class="clear"></div><a href="#"
+                                                                        class="excerpt-read-more">Continue Reading<i
+                                                                            class="fa fa-long-arrow-right icon-long-arrow-right"></i></a>
+                                                                </div>
+                                                                <div class="clear"></div>
+                                                            </header>
+                                                            <!-- entry-header -->
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                    </article>
+                                                    <!-- #post -->
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-item gdlr-blog-widget">
+                                                <div class="gdlr-ux gdlr-blog-widget-ux">
+                                                    <article id="post-2211"
+                                                        class="post-2211 post type-post status-publish format-gallery has-post-thumbnail hentry category-blog category-life-style category-news-article tag-blog tag-gallery-thumbnail tag-life-style tag-news post_format-post-format-gallery">
+                                                        <div class="gdlr-standard-style">
+                                                            <div class="blog-date-wrapper gdlr-title-font">
+                                                                <span class="blog-date-day">13</span>
+                                                                <span class="blog-date-month">Nov</span>
+                                                            </div>
+                                                            <header class="post-header">
+                                                                <h3 class="gdlr-blog-title"><a href="#">Gallery Post
+                                                                        Format Title</a></h3>
+
+                                                                <div class="gdlr-blog-excerpt">Lorem ipsum dolor sit
+                                                                    amet, consectetur adipisici elit, sed eiusmod tempor
+                                                                    incidunt ut labore et dolore magna...
+                                                                    <div class="clear"></div><a href="#"
+                                                                        class="excerpt-read-more">Continue Reading<i
+                                                                            class="fa fa-long-arrow-right icon-long-arrow-right"></i></a>
+                                                                </div>
+                                                                <div class="clear"></div>
+                                                            </header>
+                                                            <!-- entry-header -->
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                    </article>
+                                                    <!-- #post -->
+                                                </div>
+                                            </div><a class="blog-widget-right-text-link"
+                                                href="blog-full-with-right-sidebar.html">Read All News<i
+                                                    class="fa fa-long-arrow-right icon-long-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </section>
+                </div>
+
+                <!-- Below Sidebar Section-->
+
+
+            </div>
+            <!-- gdlr-content -->
+            <div class="clear"></div>
+        </div>
+        <!-- content wrapper -->
+
+
+        <footer class="footer-wrapper">
+            <div class="footer-container container">
+                <div class="footer-column three columns" id="footer-widget-1">
+                    <div id="text-5" class="widget widget_text gdlr-item gdlr-widget">
+                        <h3 class="gdlr-widget-title">Book Now!</h3>
+                        <div class="clear"></div>
+                        <div class="textwidget">
+
+
+
+                            <p><i class="gdlr-icon fa fa-phone" style="color: #fff; font-size: 16px; "></i> Contact
+                                Details:<br> +91-8979394444<br> +91-9837335135</p>
+                            <div class="clear"></div>
+                            <div class="gdlr-space" style="margin-top: -15px;"></div><br>
+                            <p><i class="gdlr-icon fa fa-envelope-o" style="color: #fff; font-size: 16px; "></i>
+                                Address: Village Aamgarhi, Block Kotabag, Ramnagar, District Nainital,
+                                Corbett National Park, Uttarakhand. 263159</p>
+                            <div class="clear"></div>
+                            <div class="gdlr-space" style="margin-top: 25px;"></div>
+                            <p>
+                                <a href="#" target="_blank"><i class="gdlr-icon fa fa-facebook-square"
+                                        style="color: #fff; font-size: 24px; "></i></a>
+                                <a href="#" target="_blank"><i class="gdlr-icon fa fa-twitter-square"
+                                        style="color: #fff; font-size: 24px; "></i></a>
+                                <a href="#" target="_blank"><i class="gdlr-icon fa fa-linkedin-square"
+                                        style="color: #fff; font-size: 24px; "></i></a>
+
+                                <a href="#" target="_blank"><i class="gdlr-icon fa fa-pinterest-square"
+                                        style="color: #fff; font-size: 24px; "></i></a>
+                                <a href="#" target="_blank"><i class="gdlr-icon fa fa-flickr"
+                                        style="color: #fff; font-size: 24px; "></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-column three columns" id="footer-widget-2">
+                    <div id="recent-posts-5" class="widget widget_recent_entries gdlr-item gdlr-widget">
+                        <h3 class="gdlr-widget-title">Quick Links</h3>
+                        <div class="clear"></div>
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about-us.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="rooms.html">Rooms</a>
+                            </li>
+                            <li>
+                                <a href="experience.html">Experience</a>
+                            </li>
+                            <li>
+                                <a href="events.html">Events</a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="be-our-pattern.html">Be Our Partner</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-column six columns" id="footer-widget-3">
+                    <div id="text-10" class="widget widget_text gdlr-item gdlr-widget">
+                        <h3 class="gdlr-widget-title" align="center">Our Awards</h3>
+                        <div class="clear"></div>
+                        <div class="textwidget" align="center"><img src="images/logo.png" alt="">
+                            <div class="clear"></div>
+                            <div class="gdlr-space" style="margin-top: 20px;" align="justify"></div>
+                            We welcome you to ALAYA Experience, an unparalleled experience where luxury meets the
+                            rawness of the jungle.We aspire to be the premier destination where nature's splendour meets
+                            refined hospitality, providing an unrivalled escape for our guests.We envision creating an
+                            ambiance where each guest not only witnesses but becomes a part of the conservation efforts,
+                            fostering a deep appreciation for the wildlife, culture, and the natural bounty of Jim
+                            Corbett. <a href="about-us.html"><b>Read More...</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="copyright-wrapper">
+                <div class="copyright-container container">
+                    <div class="copyright-left">
+                        <a href="index.html" style="margin-right: 10px;">Home</a>|
+
+                        <a href="about-us.html" style="margin-right: 10px; margin-left: 10px;">About</a> |
+                        <a href="contact-page.html" style="margin-right: 10px; margin-left: 10px;">Contact</a>
+                    </div>
+                    <div class="copyright-right">
+                        Copyright 2023 | All Right Reserved </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- body-wrapper -->
+    <script type='text/javascript' src='js/jquery/jquery.js'></script>
+    <script type='text/javascript' src='js/jquery/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='js/jquery/ui/core.min.js'></script>
+    <script type='text/javascript' src='js/jquery/ui/datepicker.min.js'></script>
+    <script type='text/javascript'>
+        jQuery(document).ready(function (jQuery) {
+            jQuery.datepicker.setDefaults({
+                "closeText": "Close",
+                "currentText": "Today",
+                "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                "nextText": "Next",
+                "prevText": "Previous",
+                "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+                "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
+                "dateFormat": "MM d, yy",
+                "firstDay": 1,
+                "isRTL": false
+            });
+        });
+    </script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var objectL10n = {
+            "closeText": "Done",
+            "currentText": "Today",
+            "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+            "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            "monthStatus": "Show a different month",
+            "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+            "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
+            "firstDay": "1"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='plugins/gdlr-hostel/gdlr-hotel.js'></script>
+    <script type='text/javascript' src='plugins/superfish/js/superfish.js'></script>
+    <script type='text/javascript' src='js/hoverIntent.min.js'></script>
+    <script type='text/javascript' src='plugins/dl-menu/modernizr.custom.js'></script>
+    <script type='text/javascript' src='plugins/dl-menu/jquery.dlmenu.js'></script>
+    <script type='text/javascript' src='js/jquery.easing.js'></script>
+    <script type='text/javascript' src='js/jquery.transit.min.js'></script>
+    <script type='text/javascript' src='plugins/fancybox/jquery.fancybox.pack.js'></script>
+    <script type='text/javascript' src='plugins/fancybox/helpers/jquery.fancybox-media.js'></script>
+    <script type='text/javascript' src='plugins/fancybox/helpers/jquery.fancybox-thumbs.js'></script>
+    <script type='text/javascript' src='js/flexslider/jquery.flexslider.js'></script>
+    <script type='text/javascript' src='js/jquery.isotope.min.js'></script>
+    <script type='text/javascript' src='js/gdlr-script.js'></script>
+
+    <script>
+        (window.MSReady = window.MSReady || []).push(function ($) {
+
+            "use strict";
+            var masterslider_8353 = new MasterSlider();
+
+            // slider controls
+            masterslider_8353.control('arrows', {
+                autohide: true,
+                overVideo: true
+            });
+            masterslider_8353.control('bullets', {
+                autohide: false,
+                overVideo: true,
+                dir: 'h',
+                align: 'bottom',
+                space: 8,
+                margin: 25
+            });
+            // slider setup
+            masterslider_8353.setup("MS5af444ba18353", {
+                width: 1140,
+                height: 780,
+                minHeight: 0,
+                space: 0,
+                start: 1,
+                grabCursor: true,
+                swipe: false,
+                mouse: true,
+                keyboard: false,
+                layout: "fullwidth",
+                wheel: false,
+                autoplay: true,
+                instantStartLayers: false,
+                mobileBGVideo: false,
+                loop: true,
+                shuffle: false,
+                preload: 0,
+                heightLimit: true,
+                autoHeight: false,
+                smoothHeight: true,
+                endPause: false,
+                overPause: true,
+                fillMode: "fill",
+                centerControls: true,
+                startOnAppear: false,
+                layersMode: "center",
+                autofillTarget: "",
+                hideLayers: false,
+                fullscreenMargin: 0,
+                speed: 20,
+                dir: "h",
+                parallaxMode: 'swipe',
+                view: "fadeFlow"
+            });
+
+            MSScrollParallax.setup(masterslider_8353, 30, 50, true);
+            $("head").append("<link rel='stylesheet' id='ms-fonts'  href='//fonts.googleapis.com/css?family=Open+Sans:300,700|Merriweather:regular' type='text/css' media='all' />");
+
+            window.masterslider_instances = window.masterslider_instances || [];
+            window.masterslider_instances.push(masterslider_8353);
+        });
+    </script>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    <script type='text/javascript' src='plugins/google-map-plugin/assets/js/maps.js'></script>
+    <script type='text/javascript' src='plugins/masterslider/public/assets/js/masterslider.min.js'></script>
+
+
+
+</body>
+
+</html>
